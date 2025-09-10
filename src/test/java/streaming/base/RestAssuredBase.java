@@ -22,8 +22,7 @@ public abstract class RestAssuredBase {
             return FALLBACK_API_KEY;
         }
         throw new IllegalStateException(
-                "YouTube API key is missing. Defina a variável de ambiente YT_API_KEY (recomendado) " +
-                        "ou preencha FALLBACK_API_KEY em RestAssuredBase."
+                "YouTube API key is missing"
         );
     }
 
